@@ -2,10 +2,10 @@ import numpy as np
 
 # Data matriks satu dimensi yang diberikan
 matriks = np.array([
-    [70, 88, 210],
-    [119, 118, 202],
-    [65, 67, 168],
-    [66, 83, 188]
+    [78, 96, 164],
+    [56, 54, 172],
+    [4, 8, 80],
+    [37, 45, 98]
 ])
 
 # Menghitung rentang untuk setiap komponen warna
