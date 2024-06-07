@@ -14,6 +14,7 @@ This project provides a Python program to classify wounds using image segmentati
 
 ### Clone the repository:
 
+
 ```bash
 git clone https://github.com/sajidannn/deteksi_luka_active_contour.git
 ```
@@ -30,11 +31,11 @@ pip install opencv-python matplotlib numpy pandas scikit-image scikit-learn
 
 Here's an example of how the segmentation works. On the left, you see the original wound image. On the right, the result of the segmentation using Active Contour, with the white curve following the wound's edge.
 
-![Example Segmentation](https://drive.google.com/file/d/1XZS96-y68lbu7LcmMvMbpTYlUX4f_nQO/view?usp=drive_link)
+![Example Segmentation](https://github.com/sajidannn/deteksi_luka_active_contour/assets/116400435/997a79b1-8112-4609-afdf-bfbb75b3801f)
 
 After segmentation, the image is masked using the fillpoly mask technique.
 
-![Example Masking](https://drive.google.com/file/d/1XgZxPE-WTIXAbAII61KoXGcQlGymtL8_/view?usp=drive_link)
+![Example Masking](https://github.com/sajidannn/deteksi_luka_active_contour/assets/116400435/bfcf6aa4-53c4-489c-b758-a4f898eb1fed)
 
 ## Steps
 
